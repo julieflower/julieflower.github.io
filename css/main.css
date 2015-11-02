@@ -1,0 +1,32 @@
+/* Bootstrap no gap */
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+body {
+    background: -webkit-linear-gradient(#00FFA2, #12C0C0);
+    background:    -moz-linear-gradient(#00FFA2, #12C0C0);
+    background:     -ms-linear-gradient(#00FFA2, #12C0C0);
+    background:      -o-linear-gradient(#00FFA2, #12C0C0);
+    background:         linear-gradient(#00FFA2, #12C0C0);
+
+    font-family: "gravur";
+}
+
+.app-btn {
+    display:block;
+    float:right;
+    padding: 10px 0;
+}
+
+.vp {
+    background-color: white;
+    border-radius: 4px;
+}
