@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Archer;
+    src: url("Archer-Light-Pro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon;
+    src: url("Brandon_reg.otf") format("opentype");
+}
+
+body {
+    text-align:center;
+    font-family: Brandon;
+}
+
+.logo {
+    width:180px;
+}
+
+.infos {
+    margin-top: 20px;
+    display:block;
+    font-family: Archer;
+}
+
+.construc {
+    display:block;
+    margin-top: 50px;
+    font-size: 27px;
+    letter-spacing: 3px;
+}
